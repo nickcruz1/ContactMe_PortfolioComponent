@@ -1,0 +1,13 @@
+.myModal {
+  display: flex;
+  flex-direction:column;
+  width: 300px;
+  padding: 0 1rem 1rem 1rem;
+  border-radius: 10px;
+  border: 3px solid blue;
+  outline: 2px solid black;
+}
+
+label {
+    margin: 0.5rem;
+  }
