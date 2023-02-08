@@ -16,3 +16,13 @@ label {
   display: none;
   animation: appear 800ms;
 }
+
+@keyframes appear {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes disappear {
+  from {opacity: 1;}
+  to {opacity: 0;}
+}
