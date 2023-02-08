@@ -11,3 +11,8 @@
 label {
     margin: 0.5rem;
   }
+
+.myModalO {
+  display: none;
+  animation: appear 800ms;
+}
