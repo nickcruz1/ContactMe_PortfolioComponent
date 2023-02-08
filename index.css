@@ -26,3 +26,12 @@ label {
   from {opacity: 1;}
   to {opacity: 0;}
 }
+
+a {
+  text-decoration: none;
+  padding: 1rem;
+}
+
+a:hover {
+  color: red;
+}
