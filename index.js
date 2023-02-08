@@ -10,3 +10,11 @@ let closeModal = document.querySelector(".closeModal");
   myModal.style.transition = "1s";
 
 }
+
+function sendMessage() {
+  let myModal = document.querySelector(".myModalO");
+  let sendMessageBtn = document.querySelector(".sendMessageBtn");
+  
+  alert("Message Has Been Sent! :)");
+  myModal.style.display = "none";
+}
